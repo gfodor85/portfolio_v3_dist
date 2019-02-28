@@ -57,6 +57,7 @@
 
 
     <div class="panel-wrapper">
+
         <!-- ABOUT PANEL -->
         <div class="content-panel panel-about" id="panel-about">
             <div id="panel-icon_1" class="panel-icon panel-icon_1 active">
@@ -186,7 +187,7 @@
                         </svg>
                     </div>
                     <div class="skills-chart-bar skills-chart-bar_left">
-                        <div class="skills-chart-loader left html">
+                        <div class="skills-chart-loader left sass">
                             <div class="chart-text_left">SASS</div>
                         </div>
                         <div class="chart-percent_left">90%</div>
@@ -197,8 +198,8 @@
                 <div class="skills-chart-wrapper">
                     
                     <div class="skills-chart-bar skills-chart-bar_right">
-                        <div class="chart-percent_right">90%</div>
-                        <div class="skills-chart-loader right css">
+                        <div class="chart-percent_right">60%</div>
+                        <div class="skills-chart-loader right jquery">
                             <div class="chart-text_right">JQUERY</div>
                         </div>
                     </div>
@@ -213,14 +214,14 @@
                 <div class="skills-chart-wrapper">
                     <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_left">
                         <svg class="skills-chart-icon">
-                            <use xlink:href="assets/img/svg/symbols.svg#html_5_logo"></use>
+                            <use xlink:href="assets/img/svg/symbols.svg#bootstrap_logo"></use>
                         </svg>
                     </div>
                     <div class="skills-chart-bar skills-chart-bar_left">
-                        <div class="skills-chart-loader left html">
-                            <div class="chart-text_left">HTML 5</div>
+                        <div class="skills-chart-loader left bootstrap">
+                            <div class="chart-text_left">BOOTSTRAP</div>
                         </div>
-                        <div class="chart-percent_left">90%</div>
+                        <div class="chart-percent_left">85%</div>
                     </div>
                 </div>
 
@@ -228,14 +229,14 @@
                 <div class="skills-chart-wrapper">
                     
                     <div class="skills-chart-bar skills-chart-bar_right">
-                        <div class="chart-percent_right">90%</div>
-                        <div class="skills-chart-loader right css">
-                            <div class="chart-text_right">CSS</div>
+                        <div class="chart-percent_right">70%</div>
+                        <div class="skills-chart-loader right wordpress">
+                            <div class="chart-text_right">WORDPRESS</div>
                         </div>
                     </div>
                     <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_right">
                         <svg class="skills-chart-icon">
-                            <use xlink:href="assets/img/svg/symbols.svg#css_logo"></use>
+                            <use xlink:href="assets/img/svg/symbols.svg#wordpress_logo"></use>
                         </svg>
                     </div>
                 </div>
@@ -246,6 +247,44 @@
                 <div class="title-text">My Skills</div>
             </div>
         </div>
+
+        <!-- CONTACT PANEL -->
+        <div class="content-panel panel-contact" id="panel-contact">
+                <div id="panel-icon_4" class="panel-icon panel-icon_4 active">
+                    <svg class="panel-svg">
+                        <use xlink:href="assets/img/svg/symbols.svg#contact_icon"></use>
+                    </svg>
+                </div>
+
+                <div class="contact_text">Interested?</br>Just drop me a mail and lets talk!</div>
+
+                <div class="mail_address">
+                    <a href="mailto:gfodor85@gmail.com" >gfodor85@gmail.com</a>
+                </div>
+                
+                <div class="contact_icon_wrapper">
+                    <div>
+                        <a href="http://www.github.com/gfodor85" target="_blank">
+                            <svg class="github_logo" id="footer_social">
+                                <use xlink:href="assets/img/svg/symbols.svg#github_logo"></use>
+                            </svg>
+                        </a>
+                    </div>
+        
+                    <div>
+                        <a href="http://www.linkedin.com/in/gyorgyfodor" target="_blank">
+                            <svg class="linkedin_logo" id="footer_social">
+                                <use xlink:href="assets/img/svg/symbols.svg#linkedin_logo"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                
+                <div id="title-container_4" class="title-container active">
+                    <div class="title-text">Contact Me</div>
+                </div>
+            </div>
 
     </div>
 
