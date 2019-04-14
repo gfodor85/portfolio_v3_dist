@@ -107,11 +107,11 @@
                     </li>
                     <li class="slide">
                         <a href="https://gfodor85.github.io/Azulite/" target="_blank">                         
-                            <img class="desktop" src="assets/img/works/azulite_desktop_mockup.png">
-                            <img class="mobile" src="assets/img/works/azulite_mobile_mockup.png">
-                            <div class="work-text-wrap"><b>Azulite</b><br />
+                        <img class="desktop" src="assets/img/works/azulite_desktop_mockup.png">
+                        <img class="mobile" src="assets/img/works/azulite_mobile_mockup.png">
+                        <div class="work-text-wrap"><b>Azulite</b><br />
                             <p>A simple and minimal landing page template</p>
-                            </div>
+                        </div>
                     </li>
                     <li class="slide">
                         <a href="https://gfodor85.github.io/verdina/" target="_blank">
@@ -156,99 +156,108 @@
                 </svg>
             </div>
 
-            <div class="skills-chart-container">
+            <div class="nav-skills" aria-label="Slider buttons">
+                <i class="fas fa-chevron-down fa-lg skills-down" aria-label="Scroll Down" aria-hidden="true"></i>
+                <i class="fas fa-chevron-up fa-lg skills-up" aria-label="Scroll Up" aria-hidden="true"></i>
+            </div>
 
-                <!-- CHART LEFT -->
-                <div class="skills-chart-wrapper">
-                    <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_left">
-                        <svg class="skills-chart-icon">
-                            <use xlink:href="assets/img/svg/symbols.svg#html_5_logo"></use>
-                        </svg>
-                    </div>
-                    <div class="skills-chart-bar skills-chart-bar_left">
-                        <div class="skills-chart-loader left html">
-                            <div class="chart-text_left">HTML 5</div>
+            <div class="skills-wrapper">
+
+                <div class="skills-chart-container">
+
+                    <!-- CHART HTML5 LEFT -->
+                    <div class="skills-chart-wrapper">
+                        <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_left">
+                            <svg class="skills-chart-icon">
+                                <use xlink:href="assets/img/svg/symbols.svg#html_5_logo"></use>
+                            </svg>
                         </div>
-                        <div class="chart-percent_left">90%</div>
-                    </div>
-                </div>
-
-                <!-- CHART RIGHT -->
-                <div class="skills-chart-wrapper">
-                    
-                    <div class="skills-chart-bar skills-chart-bar_right">
-                        <div class="chart-percent_right">90%</div>
-                        <div class="skills-chart-loader right css">
-                            <div class="chart-text_right">CSS</div>
+                        <div class="skills-chart-bar skills-chart-bar_left">
+                            <div class="skills-chart-loader left html">
+                                <div class="chart-text_left">HTML 5</div>
+                            </div>
+                            <div class="chart-percent_left">90%</div>
                         </div>
                     </div>
-                    <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_right">
-                        <svg class="skills-chart-icon">
-                            <use xlink:href="assets/img/svg/symbols.svg#css_logo"></use>
-                        </svg>
-                    </div>
-                </div>
 
-                <!-- CHART LEFT -->
-                <div class="skills-chart-wrapper">
-                    <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_left">
-                        <svg class="skills-chart-icon">
-                            <use xlink:href="assets/img/svg/symbols.svg#sass_logo"></use>
-                        </svg>
-                    </div>
-                    <div class="skills-chart-bar skills-chart-bar_left">
-                        <div class="skills-chart-loader left sass">
-                            <div class="chart-text_left">SASS</div>
+                    <!-- CHART CSS RIGHT -->
+                    <div class="skills-chart-wrapper">
+                        
+                        <div class="skills-chart-bar skills-chart-bar_right">
+                            <div class="chart-percent_right">90%</div>
+                            <div class="skills-chart-loader right css">
+                                <div class="chart-text_right">CSS</div>
+                            </div>
                         </div>
-                        <div class="chart-percent_left">90%</div>
-                    </div>
-                </div>
-
-                <!-- CHART RIGHT -->
-                <div class="skills-chart-wrapper">
-                    
-                    <div class="skills-chart-bar skills-chart-bar_right">
-                        <div class="chart-percent_right">60%</div>
-                        <div class="skills-chart-loader right jquery">
-                            <div class="chart-text_right">JQUERY</div>
+                        <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_right">
+                            <svg class="skills-chart-icon">
+                                <use xlink:href="assets/img/svg/symbols.svg#css_logo"></use>
+                            </svg>
                         </div>
                     </div>
-                    <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_right">
-                        <svg class="skills-chart-icon">
-                            <use xlink:href="assets/img/svg/symbols.svg#jquery_logo"></use>
-                        </svg>
-                    </div>
-                </div>
 
-                <!-- CHART LEFT -->
-                <div class="skills-chart-wrapper">
-                    <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_left">
-                        <svg class="skills-chart-icon">
-                            <use xlink:href="assets/img/svg/symbols.svg#bootstrap_logo"></use>
-                        </svg>
-                    </div>
-                    <div class="skills-chart-bar skills-chart-bar_left">
-                        <div class="skills-chart-loader left bootstrap">
-                            <div class="chart-text_left">BOOTSTRAP</div>
+                    <!-- CHART SASS LEFT -->
+                    <div class="skills-chart-wrapper">
+                        <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_left">
+                            <svg class="skills-chart-icon">
+                                <use xlink:href="assets/img/svg/symbols.svg#sass_logo"></use>
+                            </svg>
                         </div>
-                        <div class="chart-percent_left">85%</div>
-                    </div>
-                </div>
-
-                <!-- CHART RIGHT -->
-                <div class="skills-chart-wrapper">
-                    
-                    <div class="skills-chart-bar skills-chart-bar_right">
-                        <div class="chart-percent_right">70%</div>
-                        <div class="skills-chart-loader right wordpress">
-                            <div class="chart-text_right">WORDPRESS</div>
+                        <div class="skills-chart-bar skills-chart-bar_left">
+                            <div class="skills-chart-loader left sass">
+                                <div class="chart-text_left">SASS</div>
+                            </div>
+                            <div class="chart-percent_left">90%</div>
                         </div>
                     </div>
-                    <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_right">
-                        <svg class="skills-chart-icon">
-                            <use xlink:href="assets/img/svg/symbols.svg#wordpress_logo"></use>
-                        </svg>
+
+                    <!-- CHART JQUERY RIGHT -->
+                    <div class="skills-chart-wrapper">
+                        
+                        <div class="skills-chart-bar skills-chart-bar_right">
+                            <div class="chart-percent_right">60%</div>
+                            <div class="skills-chart-loader right jquery">
+                                <div class="chart-text_right">JQUERY</div>
+                            </div>
+                        </div>
+                        <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_right">
+                            <svg class="skills-chart-icon">
+                                <use xlink:href="assets/img/svg/symbols.svg#jquery_logo"></use>
+                            </svg>
+                        </div>
                     </div>
+
+                    <!-- CHART BOOTSTRAP LEFT -->
+                    <div class="skills-chart-wrapper">
+                        <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_left">
+                            <svg class="skills-chart-icon">
+                                <use xlink:href="assets/img/svg/symbols.svg#bootstrap_logo"></use>
+                            </svg>
+                        </div>
+                        <div class="skills-chart-bar skills-chart-bar_left">
+                            <div class="skills-chart-loader left bootstrap">
+                                <div class="chart-text_left">BOOTSTRAP</div>
+                            </div>
+                            <div class="chart-percent_left">85%</div>
+                        </div>
+                    </div>
+
+                    <!-- CHART WORDPRESS RIGHT -->
+                    <div class="skills-chart-wrapper">
+                        
+                        <div class="skills-chart-bar skills-chart-bar_right">
+                            <div class="chart-percent_right">70%</div>
+                            <div class="skills-chart-loader right wordpress">
+                                <div class="chart-text_right">WORDPRESS</div>
+                            </div>
+                        </div>
+                        <div class="skills-chart-icon-wrapper skills-chart-icon-wrapper_right">
+                            <svg class="skills-chart-icon">
+                                <use xlink:href="assets/img/svg/symbols.svg#wordpress_logo"></use>
+                            </svg>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -301,28 +310,33 @@
     <!-- NAVIGATION -->
     <div class="nav-wrapper">
         <div class="nav-item-wrapper nav-item-wrapper-animate">
+
             <div panel-icon="panel-icon_1" content-panel="panel-about" title-container="title-container_1" class="nav-item nav-item_1">
                 <svg class="nav-icon">
                     <use xlink:href="assets/img/svg/symbols.svg#about_icon"></use>
                 </svg>
+                <div class="nav-text">ABOUT</div>
             </div>
 
             <div panel-icon="panel-icon_2" content-panel="panel-works" title-container="title-container_2" class="nav-item nav-item_2">
                 <svg class="nav-icon">
                     <use xlink:href="assets/img/svg/symbols.svg#work_icon"></use>
                 </svg>
+                <div class="nav-text">WORKS</div>
             </div>
 
             <div panel-icon="panel-icon_3" content-panel="panel-skills" title-container="title-container_3" class="nav-item nav-item_3">
                 <svg class="nav-icon">
                     <use xlink:href="assets/img/svg/symbols.svg#skills_icon"></use>
                 </svg>
+                <div class="nav-text">SKILLS</div>
             </div>
 
             <div panel-icon="panel-icon_4" content-panel="panel-contact" title-container="title-container_4" class="nav-item nav-item_4">
                 <svg class="nav-icon nav-icon-contact">
                     <use xlink:href="assets/img/svg/symbols.svg#contact_icon"></use>
                 </svg>
+                <div class="nav-text">CONTACT</div>
             </div>
         </div>
     </div>
