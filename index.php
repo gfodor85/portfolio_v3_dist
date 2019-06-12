@@ -50,7 +50,7 @@
 
         <!-- HEADER TITLE -->
         <div class="hero_title">
-            <span>FuseWorks</span>
+            <span>FuseWeb</span>
         </div>
 
     </div>
