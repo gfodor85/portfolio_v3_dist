@@ -7,7 +7,7 @@
 <!--<![endif]-->
 
 <head>
-    <title>FuseWorks</title>
+    <title>FuseWeb</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="theme-color" content="#24AAC5">
@@ -47,6 +47,41 @@
                 <use xlink:href="assets/img/svg/symbols.svg#fuseworks_logo_2"></use>
             </svg>
         </div>
+        
+        <!-- NAVIGATION -->
+        <div class="nav-wrapper">
+            <div class="nav-item-wrapper nav-item-wrapper-animate">
+    
+                <div panel-icon="panel-icon_1" content-panel="panel-about" title-container="title-container_1" class="nav-item nav-item_1">
+                    <svg class="nav-icon">
+                        <use xlink:href="assets/img/svg/symbols.svg#about_icon"></use>
+                    </svg>
+                    <div class="nav-text">ABOUT</div>
+                </div>
+    
+                <div panel-icon="panel-icon_2" content-panel="panel-works" title-container="title-container_2" class="nav-item nav-item_2">
+                    <svg class="nav-icon">
+                        <use xlink:href="assets/img/svg/symbols.svg#work_icon"></use>
+                    </svg>
+                    <div class="nav-text">WORKS</div>
+                </div>
+    
+                <div panel-icon="panel-icon_3" content-panel="panel-skills" title-container="title-container_3" class="nav-item nav-item_3">
+                    <svg class="nav-icon">
+                        <use xlink:href="assets/img/svg/symbols.svg#skills_icon"></use>
+                    </svg>
+                    <div class="nav-text">SKILLS</div>
+                </div>
+    
+                <div panel-icon="panel-icon_4" content-panel="panel-contact" title-container="title-container_4" class="nav-item nav-item_4">
+                    <svg class="nav-icon nav-icon-contact">
+                        <use xlink:href="assets/img/svg/symbols.svg#contact_icon"></use>
+                    </svg>
+                    <div class="nav-text">CONTACT</div>
+                </div>
+            </div>
+        </div>
+        
 
         <!-- HEADER TITLE -->
         <div class="hero_title">
@@ -54,7 +89,6 @@
         </div>
 
     </div>
-
 
     <div class="panel-wrapper">
 
@@ -66,15 +100,16 @@
                 </svg>
             </div>
             <div class="about-text-wrapper">
-                <p class="about-text">Hello,<br /><br />
-            I’m a passionate front-end developer and designer with many years of experience
-            in building and designing clean and fast websites. I am always opened to new ideas
-            and new ways which help me to develop my skills and try to become better and
-            better. In my adventure of development I always learn new methods and technologies
-            which result in cool websites. I have experience in creating a wide range of web
-            projects such as landing pages, eCommerce or WordPress sites that will work and
-            look great across all devices.
-            </p>
+                <p class="about-text">Hello, I am George, a Hungary-based front-end developer and webdesigner,<br /><br />
+
+                    Front-end development and webdesign. Some of those areas, which gives me the experience of creativity, challenge and the opportunity of continous progress. I am quick to familiarise myself to adapt the latest technologies and industry developments.
+                    It’s been a while since as a beginner in IT I have met and have been fascinated by web development.
+                    Whether it be design or coding, I always aimed to keep in mind to make my work clean and minimalistic.
+                    In the process of planning and developing I use several tools.
+                    To develop my websites I use a wide range of tools such as HTML5, CSS/SASS, Javascript, JQuery.
+                    I mainly prefer frameworks such as Bootstrap and Wordpress.
+                    In order to achieve a smooth development process I use Node.JS and Gulp.
+                </p>
             </div>
             
             <div id="title-container_1" class="title-container active">
@@ -90,59 +125,74 @@
                     <use xlink:href="assets/img/svg/symbols.svg#work_icon"></use>
                 </svg>
             </div>
-            <div class="nav-work" aria-label="Slider buttons" aria-controls="sequence">
-                <i class="fas fa-chevron-right fa-lg seq-next" aria-label="Next" aria-hidden="true"></i>
-                <i class="fas fa-chevron-left fa-lg seq-prev" aria-label="Previous" aria-hidden="true"></i>
+
+            <div class="work-item">
+                <div class="img-container ">
+                    <img class="img img-left" src="assets/img/works/snackgarden_rect.jpg">
+                </div>
+                <div class="work-text-wrap work-text-wrap-left">
+                    <div>
+                        <b>Snack Garden</b><br />
+                        <a href="http://www.snackgarden.eu" target="_blank">Visit webpage</a>
+                    </div>
+                </div>
             </div>
-            <div id="sequence" class="seq">
-                <ul class="seq-canvas">
-                    <li class="slide">
-                        <a href="https://dentico-dist.herokuapp.com/" target="_blank">
-                            <img class="work-img desktop" src="assets/img/works/dentico_desktop_mockup.png" />
-                            <img class="work-img mobile" src="assets/img/works/dentico_mobile_mockup.png" />
-                            <div class="work-text-wrap"><b>Dentico</b><br />
-                                <p>A simple and minimal landing page template</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="slide">
-                        <a href="https://gfodor85.github.io/Azulite/" target="_blank">                         
-                        <img class="desktop" src="assets/img/works/azulite_desktop_mockup.png">
-                        <img class="mobile" src="assets/img/works/azulite_mobile_mockup.png">
-                        <div class="work-text-wrap"><b>Azulite</b><br />
-                            <p>A simple and minimal landing page template</p>
-                        </div>
-                    </li>
-                    <li class="slide">
-                        <a href="https://gfodor85.github.io/verdina/" target="_blank">
-                            <img class="work-img desktop" src="assets/img/works/verdina_desktop_mockup.png" />
-                            <img class="work-img mobile" src="assets/img/works/verdina_mobile_mockup.png" />
-                            <div class="work-text-wrap"><b>Verdina</b><br />
-                                <p>A simple and minimal landing page template</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="slide">
-                        <a href="http://fuseworks.io/subdomains/barbero" target="_blank">
-                            <img class="work-img desktop" src="assets/img/works/barbero_desktop_mockup.png" />
-                            <img class="work-img mobile" src="assets/img/works/barbero_mobile_mockup.png" />
-                            <div class="work-text-wrap"><b>Barbero</b><br />
-                                <p>A simple and minimal landing page template</p>
-                            </div>
-                        </a>
-                    </li>
-                    
-                    <li class="slide">
-                        <a href="http://fuseworks.io/subdomains/yogic" target="_blank">
-                            <img class="work-img desktop" src="assets/img/works/yogic_desktop_mockup.png" />
-                            <img class="work-img mobile" src="assets/img/works/yogic_mobile_mockup.png" />
-                            <div class="work-text-wrap"><b>Yogic</b><br />
-                                <p>A simple and minimal landing page template</p>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+        
+            <div class="work-item">
+                <div class="work-text-wrap work-text-wrap-right ">
+                    <div>
+                        <b>Dentico</b><br />
+                        <p>A simple and minimal landing page template</p>
+                        <a href="https://dentico-dist.herokuapp.com/" target="_blank">Visit webpage</a>
+                    </div>
+                </div>
+                <div class="img-container slide_right">
+                    <img class="img img-right" src="assets/img/works/dentico_rect.jpg">
+                </div> 
             </div>
+
+            <div class="work-item">
+                <div class="img-container">
+                    <img class="img img-left" src="assets/img/works/barbero_rect.jpg" alt="">
+                </div>
+                <div class="work-text-wrap work-text-wrap-left">
+                    <div>
+                        <b>Barbero</b><br />
+                        <p>Barbershop landing page template</p>
+                        <a href="https://barbero-dist.herokuapp.com/" target="_blank">Visit webpage</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="work-item">
+                <div class="work-text-wrap work-text-wrap-right slide_left">
+                    <div>
+                        <b>Verdina</b><br />
+                        <p>A simple and minimal landing page template</p>
+                        <a href="https://gfodor85.github.io/verdina/" target="_blank">Visit webpage</a>
+                    </div>
+                </div>
+                <div class="img-container slide_right">
+                    <img class="img img-right" src="assets/img/works/verdina_rect.jpg" alt="">
+                </div> 
+            </div>
+
+            <div class="work-item">
+                <div class="img-container">
+                    <img class="img img-left" src="assets/img/works/Azulite_rect.jpg" alt="">
+                </div>
+                <div class="work-text-wrap work-text-wrap-left">
+                    <div>
+                        <b>Azulite</b><br />
+                        <p>A simple and minimal landing page template for yoga studios</p>
+                        <a href="https://gfodor85.github.io/Azulite/" target="_blank">Visit webpage</a>
+                    </div>
+                </div>
+            </div>
+        
+            
+
+
             <div id="title-container_2" class="title-container active">
                 <div class="title-text">Recent works</div>
             </div>
@@ -306,40 +356,6 @@
             </div>
 
     </div>
-
-    <!-- NAVIGATION -->
-    <div class="nav-wrapper">
-        <div class="nav-item-wrapper nav-item-wrapper-animate">
-
-            <div panel-icon="panel-icon_1" content-panel="panel-about" title-container="title-container_1" class="nav-item nav-item_1">
-                <svg class="nav-icon">
-                    <use xlink:href="assets/img/svg/symbols.svg#about_icon"></use>
-                </svg>
-                <div class="nav-text">ABOUT</div>
-            </div>
-
-            <div panel-icon="panel-icon_2" content-panel="panel-works" title-container="title-container_2" class="nav-item nav-item_2">
-                <svg class="nav-icon">
-                    <use xlink:href="assets/img/svg/symbols.svg#work_icon"></use>
-                </svg>
-                <div class="nav-text">WORKS</div>
-            </div>
-
-            <div panel-icon="panel-icon_3" content-panel="panel-skills" title-container="title-container_3" class="nav-item nav-item_3">
-                <svg class="nav-icon">
-                    <use xlink:href="assets/img/svg/symbols.svg#skills_icon"></use>
-                </svg>
-                <div class="nav-text">SKILLS</div>
-            </div>
-
-            <div panel-icon="panel-icon_4" content-panel="panel-contact" title-container="title-container_4" class="nav-item nav-item_4">
-                <svg class="nav-icon nav-icon-contact">
-                    <use xlink:href="assets/img/svg/symbols.svg#contact_icon"></use>
-                </svg>
-                <div class="nav-text">CONTACT</div>
-            </div>
-        </div>
-    </div>
         
 
 
@@ -358,23 +374,10 @@
         crossorigin="anonymous"></script>
 
     <!-- Sequence script -->
-    <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/154/sequence.min.js'></script>
+    <!-- <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/154/sequence.min.js'></script> -->
 
     <!-- Swiper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.5/js/swiper.min.js"></script>
-
-
-
-    <!-- Initialize Swiper -->
-    <script>
-        var swiper = new Swiper('.swiper-container', {
-            direction: 'vertical',
-            pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-            },
-        });
-    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.5/js/swiper.min.js"></script> -->
 
 
 </body>
