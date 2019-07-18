@@ -34,9 +34,17 @@ $( document ).ready(function() {
         $(this).delay(800).addClass('active');
       });
     });
+
+
+    $('.img-container').removeClass('active');
+    setTimeout(function() {
+      $('.img-container').addClass('active');
+    },10);
+    
+
   });
 
-  
+
   // Sequence JS
 
   var sequenceElement = document.getElementById("sequence");
