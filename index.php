@@ -126,18 +126,6 @@
                 </svg>
             </div>
 
-            <div class="work-item">
-                <div class="work-text-wrap work-text-wrap-right ">
-                    <div>
-                        <b>Medicover</b><br />
-                        <p>Medicover wordpress site</p>
-                        <a href="https://www.medicover.hu" target="_blank">Visit webpage</a>
-                    </div>
-                </div>
-                <div class="img-container slide_right">
-                    <img class="img img-right" src="assets/img/works/medicover_rect.jpg">
-                </div> 
-            </div>
 
             <div class="work-item">
                 <div class="img-container ">
@@ -192,7 +180,7 @@
 
             <div class="work-item">
                 <div class="img-container">
-                    <img class="img img-left" src="assets/img/works/Azulite_rect.jpg" alt="">
+                    <img class="img img-left" src="assets/img/works/azulite_rect.jpg" alt="">
                 </div>
                 <div class="work-text-wrap work-text-wrap-left">
                     <div>
