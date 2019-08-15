@@ -100,9 +100,9 @@
                 </svg>
             </div>
             <div class="about-text-wrapper">
-                <p class="about-text">Hello, I am George, a Hungary-based front-end developer and webdesigner,<br /><br />
+                <p class="about-text">Hello, I am George, a Hungary-based front-end developer and UX/UI designer,<br /><br />
 
-                    Front-end development and webdesign. Some of those areas, which gives me the experience of creativity, challenge and the opportunity of continous progress. I am quick to familiarise myself to adapt the latest technologies and industry developments.
+                    Front-end development and UX/UI. Some of those areas, which gives me the experience of creativity, challenge and the opportunity of continous progress. I am quick to familiarise myself to adapt the latest technologies and industry developments.
                     It’s been a while since as a beginner in IT I have met and have been fascinated by web development.
                     Whether it be design or coding, I always aimed to keep in mind to make my work clean and minimalistic.
                     In the process of planning and developing I use several tools.
