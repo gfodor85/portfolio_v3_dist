@@ -128,13 +128,26 @@
 
 
             <div class="work-item">
+                <div class="work-text-wrap work-text-wrap-right">
+                    <div>
+                        <b>Yogic</b><br />
+                        <p>Wordpress template for yoga/fittness studios</p>
+                        <a href="http://echo.cweb.hu/~fusewebn/yogic/" target="_blank">Visit website</a>
+                    </div>
+                </div>
+                <div class="img-container ">
+                    <img class="img img-right" src="assets/img/works/yogic_rect.png">
+                </div>
+            </div>
+
+            <div class="work-item">
                 <div class="img-container ">
                     <img class="img img-left" src="assets/img/works/snackgarden_rect.jpg">
                 </div>
                 <div class="work-text-wrap work-text-wrap-left">
                     <div>
                         <b>Snack Garden</b><br />
-                        <a href="http://www.snackgarden.eu" target="_blank">Visit webpage</a>
+                        <a href="http://www.snackgarden.eu" target="_blank">Visit website</a>
                     </div>
                 </div>
             </div>
@@ -144,7 +157,7 @@
                     <div>
                         <b>Dentico</b><br />
                         <p>A simple and minimal landing page template</p>
-                        <a href="https://dentico-dist.herokuapp.com/" target="_blank">Visit webpage</a>
+                        <a href="https://dentico-dist.herokuapp.com/" target="_blank">Visit website</a>
                     </div>
                 </div>
                 <div class="img-container slide_right">
@@ -160,7 +173,7 @@
                     <div>
                         <b>Barbero</b><br />
                         <p>Barbershop landing page template</p>
-                        <a href="https://barbero-dist.herokuapp.com/" target="_blank">Visit webpage</a>
+                        <a href="https://barbero-dist.herokuapp.com/" target="_blank">Visit website</a>
                     </div>
                 </div>
             </div>
@@ -170,7 +183,7 @@
                     <div>
                         <b>Verdina</b><br />
                         <p>A simple and minimal landing page template</p>
-                        <a href="https://gfodor85.github.io/verdina/" target="_blank">Visit webpage</a>
+                        <a href="https://gfodor85.github.io/verdina/" target="_blank">Visit website</a>
                     </div>
                 </div>
                 <div class="img-container slide_right">
@@ -186,7 +199,7 @@
                     <div>
                         <b>Azulite</b><br />
                         <p>A simple and minimal landing page template for yoga studios</p>
-                        <a href="https://gfodor85.github.io/Azulite/" target="_blank">Visit webpage</a>
+                        <a href="https://gfodor85.github.io/Azulite/" target="_blank">Visit website</a>
                     </div>
                 </div>
             </div>
