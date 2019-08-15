@@ -131,18 +131,18 @@
                 <div class="work-text-wrap work-text-wrap-right">
                     <div>
                         <b>Yogic</b><br />
-                        <p>Wordpress template for yoga/fittness studios</p>
+                        <p>Wordpress template for yoga/fitness studios</p>
                         <a href="http://echo.cweb.hu/~fusewebn/yogic/" target="_blank">Visit website</a>
                     </div>
                 </div>
                 <div class="img-container ">
-                    <img class="img img-right" src="assets/img/works/yogic_rect.png">
+                    <a href="http://echo.cweb.hu/~fusewebn/yogic/" target="_blank"><img class="img img-right" src="assets/img/works/yogic_rect.png"></a>
                 </div>
             </div>
 
             <div class="work-item">
                 <div class="img-container ">
-                    <img class="img img-left" src="assets/img/works/snackgarden_rect.jpg">
+                    <a href="http://www.snackgarden.eu" target="_blank"><img class="img img-left" src="assets/img/works/snackgarden_rect.jpg"></a>
                 </div>
                 <div class="work-text-wrap work-text-wrap-left">
                     <div>
@@ -161,13 +161,13 @@
                     </div>
                 </div>
                 <div class="img-container slide_right">
-                    <img class="img img-right" src="assets/img/works/dentico_rect.jpg">
+                    <a href="https://dentico-dist.herokuapp.com/" target="_blank"><img class="img img-right" src="assets/img/works/dentico_rect.jpg"></a>
                 </div> 
             </div>
 
             <div class="work-item">
                 <div class="img-container">
-                    <img class="img img-left" src="assets/img/works/barbero_rect.jpg" alt="">
+                    <a href="https://barbero-dist.herokuapp.com/" target="_blank"><img class="img img-left" src="assets/img/works/barbero_rect.jpg" alt=""></a>
                 </div>
                 <div class="work-text-wrap work-text-wrap-left">
                     <div>
@@ -187,13 +187,13 @@
                     </div>
                 </div>
                 <div class="img-container slide_right">
-                    <img class="img img-right" src="assets/img/works/verdina_rect.jpg" alt="">
+                    <a href="https://gfodor85.github.io/verdina/" target="_blank"><img class="img img-right" src="assets/img/works/verdina_rect.jpg" alt=""></a>
                 </div> 
             </div>
 
             <div class="work-item">
                 <div class="img-container">
-                    <img class="img img-left" src="assets/img/works/azulite_rect.jpg" alt="">
+                    <a href="https://gfodor85.github.io/Azulite/" target="_blank"><img class="img img-left" src="assets/img/works/azulite_rect.jpg" alt=""></a>
                 </div>
                 <div class="work-text-wrap work-text-wrap-left">
                     <div>
