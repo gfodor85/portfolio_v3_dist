@@ -127,7 +127,7 @@
             </div>
 
 
-            <div class="work-item">
+            <div class="work-item d-flex justify-content-between">
                 <div class="work-text-wrap work-text-wrap-right">
                     <div>
                         <b>Yogic</b><br />
@@ -140,7 +140,7 @@
                 </div>
             </div>
 
-            <div class="work-item">
+            <div class="work-item d-flex justify-content-between">
                 <div class="img-container ">
                     <a href="http://www.snackgarden.eu" target="_blank"><img class="img img-left" src="assets/img/works/snackgarden_rect.jpg"></a>
                 </div>
@@ -152,7 +152,7 @@
                 </div>
             </div>
         
-            <div class="work-item">
+            <div class="work-item d-flex justify-content-between">
                 <div class="work-text-wrap work-text-wrap-right ">
                     <div>
                         <b>Dentico</b><br />
@@ -165,7 +165,7 @@
                 </div> 
             </div>
 
-            <div class="work-item">
+            <div class="work-item d-flex justify-content-between">
                 <div class="img-container">
                     <a href="https://barbero-dist.herokuapp.com/" target="_blank"><img class="img img-left" src="assets/img/works/barbero_rect.jpg" alt=""></a>
                 </div>
@@ -178,7 +178,7 @@
                 </div>
             </div>
         
-            <div class="work-item">
+            <div class="work-item d-flex justify-content-between">
                 <div class="work-text-wrap work-text-wrap-right slide_left">
                     <div>
                         <b>Verdina</b><br />
@@ -191,14 +191,14 @@
                 </div> 
             </div>
 
-            <div class="work-item">
+            <div class="work-item d-flex justify-content-between">
                 <div class="img-container">
                     <a href="https://gfodor85.github.io/Azulite/" target="_blank"><img class="img img-left" src="assets/img/works/azulite_rect.jpg" alt=""></a>
                 </div>
                 <div class="work-text-wrap work-text-wrap-left">
                     <div>
                         <b>Azulite</b><br />
-                        <p>A simple and minimal landing page template for yoga studios</p>
+                        <p>Landing page template for yoga studios</p>
                         <a href="https://gfodor85.github.io/Azulite/" target="_blank">Visit website</a>
                     </div>
                 </div>
