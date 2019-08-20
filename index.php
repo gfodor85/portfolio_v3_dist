@@ -132,7 +132,7 @@
                     <div>
                         <b>Yogic</b><br />
                         <p>Wordpress template for yoga/fitness studios</p>
-                        <a href="http://echo.cweb.hu/~fusewebn/yogic/" target="_blank">Visit website</a>
+                        <a href="http://fusewebn.echo.mysitepreview.co.uk/yogic" target="_blank">Visit website</a>
                     </div>
                 </div>
                 <div class="img-container ">
