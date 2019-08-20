@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="img-container ">
-                    <a href="http://echo.cweb.hu/~fusewebn/yogic/" target="_blank"><img class="img img-right" src="assets/img/works/yogic_rect.png"></a>
+                    <a href="http://fusewebn.echo.mysitepreview.co.uk/yogic/" target="_blank"><img class="img img-right" src="assets/img/works/yogic_rect.png"></a>
                 </div>
             </div>
 
